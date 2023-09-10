@@ -260,9 +260,43 @@ nav.open .sidebar {
   border-radius: 8px;
   text-decoration: none;
 }
-.lists .nav-link:hover {
-  background-color: #4070f4;
+#home:hover {
+background-color: #000;
+position: relative;
+  line-height: 1;
+  transition: 0.3s ease all;
+  z-index: 2;
 }
+#gpa-calculator:hover{
+    background-color: #ea4c89;
+    position: relative;
+    line-height: 1;
+    transition: 0.3s ease all;
+    z-index: 2;
+    
+}
+#cgpa-calculator:hover{
+    background-color: #0057ff;
+    position: relative;
+    line-height: 1;
+    transition: 0.3s ease all;
+    z-index: 2;
+}
+#about:hover{
+    background-color: #32c766;
+    position: relative;
+    line-height: 1;
+    transition: 0.3s ease all;
+    z-index: 2;
+}
+#contact:hover{
+    background-color: #f48024;
+    position: relative;
+    line-height: 1;
+    transition: 0.3s ease all;
+    z-index: 2;
+}
+
 .nav-link .icon {
   margin-right: 14px;
   font-size: 20px;
@@ -276,6 +310,17 @@ nav.open .sidebar {
 .lists .nav-link:hover .icon,
 .lists .nav-link:hover .link {
   color: #fff;
+}
+.lists .nav-link:hover{
+    transform: translate(0, -10%);
+}
+
+/* .lists .nav-link:hover .icon,
+.lists .nav-link:hover .link{
+    background-color:  #171515;
+} */
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #0072b1;
 }
 .overlay {
   position: fixed;
